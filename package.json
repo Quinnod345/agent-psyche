@@ -1,0 +1,41 @@
+{
+  "name": "agent-psyche",
+  "version": "0.1.0",
+  "description": "Give your AI agent feelings that matter. Emotional state, calibrated confidence, persistent undercurrents — a cognitive layer that actually affects decisions.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "bin": {
+    "agent-psyche": "./src/cli.js"
+  },
+  "keywords": [
+    "ai-agents",
+    "emotions",
+    "cognitive-architecture",
+    "calibration",
+    "confidence",
+    "decision-making",
+    "undercurrents",
+    "hypothesis",
+    "psyche",
+    "affective-computing",
+    "llm",
+    "agent"
+  ],
+  "author": "Oneiro <oneiro-dev@proton.me>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Quinnod345/agent-psyche"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ]
+}
